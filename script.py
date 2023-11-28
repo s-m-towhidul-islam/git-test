@@ -1,8 +1,6 @@
 def swap(a, b):
     print('before swapping: ', a, b)
-    tmp = a
-    a = b
-    b = tmp
+    a,b = b,a
     print('after swapping: ', a, b)
 
 a = 5
